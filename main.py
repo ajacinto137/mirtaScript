@@ -16,10 +16,6 @@ username = input("Please Enter Username--> ")
 password = input("Please Enter Password--> ")
 twoFa = input("Please Enter twoFa ---> ")
 
-# username = "avelino@planet.net"
-# password = "LssVPdJm"
-
-
 driver = webdriver.Chrome(PATH)
 driver.get(website)
 search = driver.find_element_by_name("username")
